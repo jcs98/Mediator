@@ -1,0 +1,8 @@
+@import '~antd/dist/antd.css';
+$primary-color: #444;
+$secondary-color: #fff;
+
+body {
+  background: $secondary-color;
+  color: $primary-color;
+}
