@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import history from '../history';
 
 import Home from '../components/home';
+import { addIssue } from '../actions'
 
 const mapDispatchToProps = dispatch => ({
   logout: () => {
@@ -9,9 +10,9 @@ const mapDispatchToProps = dispatch => ({
     dispatch({ type: "LOGOUT" });
     history.push('./');
   },
-  addIssue: () => {
+  addIssue: (title, body, tags) => {
     console.log("Adding Issue");
-    dispatch({ type: "ADD_ISSUE" });
+    dispatch(addIssue(title, body, tags));
 
   }
 });

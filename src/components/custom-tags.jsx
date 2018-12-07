@@ -8,7 +8,7 @@ export const CustomTags = ({ tags }) => {
 
   tags.forEach(tag => {
 
-    switch (tag) {
+    switch (parseInt(tag)) {
       case 0: type = "priority"; tagColor = "#f50"; break;
       case 1: type = "announcement"; tagColor = "#3cb371"; break;
       case 2: type = "help required"; tagColor = "#551a8b"; break;

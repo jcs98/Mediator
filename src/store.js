@@ -1,6 +1,6 @@
 import { createStore } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension';
-import reducers from './reducers'
+import { app } from './reducers/'
 
 let initialState = {
   issues: [
@@ -109,7 +109,7 @@ let initialState = {
   ]
 }
 
-const store = createStore(reducers, initialState, composeWithDevTools());
+const store = createStore(app, initialState, composeWithDevTools());
 
 export default store
 
