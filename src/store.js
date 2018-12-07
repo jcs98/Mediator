@@ -92,7 +92,7 @@ let initialState = {
       id: 5,
       issueId: 235,
       color: "red",
-      type: "cross-circle-o",
+      type: "close-circle-o",
       message: "I am closing this issue now.",
       author: "jcshah98",
       date: "2018-07-02"

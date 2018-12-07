@@ -1,9 +1,10 @@
 @import '~antd/dist/antd.css';
-@import './_config.scss';
+@import './_config';
 
 body {
   background: $secondary-color;
   color: $primary-color;
 }
 
-@import './_issue-item.scss';
+@import './_issue-item';
+@import './_issue-details';
