@@ -1,8 +1,9 @@
 @import '~antd/dist/antd.css';
-$primary-color: #444;
-$secondary-color: #fff;
+@import './_config.scss';
 
 body {
   background: $secondary-color;
   color: $primary-color;
 }
+
+@import './_issue-item.scss';
