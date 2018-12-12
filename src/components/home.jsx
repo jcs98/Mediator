@@ -8,9 +8,9 @@ const Home = (props) => {
   return (
     <div className="home-page">
       <Row>
-        <Col span={12} offset={6}>
-          <AddIssue addIssue={props.addIssue}/>
+        <Col xs={{ span: 22, offset: 1 }} md={{ span: 18, offset: 3 }} lg={{ span: 12, offset: 6 }} xl={{ span: 12, offset: 6 }}>
           <h1>All issues</h1>
+          <AddIssue addIssue={props.addIssue}/>
           <AllIssuesList issues={props.issues} details={props.details} />
         </Col>
       </Row>

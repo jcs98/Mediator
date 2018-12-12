@@ -1,0 +1,18 @@
+.new-issue {
+  // border: 1px rgba(0,0,0,0.2) solid;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+padding: 16px;
+margin-bottom: 16px;
+  .last-row {
+    margin-bottom: 0px;
+  }
+}
+
+.on-submit-issue {
+  -ms-transform: translate(0px,200px); /* IE 9 */
+  -webkit-transform: translate(0px,200px); /* Safari */
+  transform: translate(0px,200px); /* Standard syntax */
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
