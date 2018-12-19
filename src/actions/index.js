@@ -1,4 +1,5 @@
 let nextIssueId = 300;
+let nextIssueDetailId = 7;
 
 let today = new Date();
 let dd = today.getDate();
@@ -22,4 +23,14 @@ export const addIssue = (title, body, tags) => ({
   body,
   tags,
   stars: 56
+})
+
+export const addIssueDetail = (issueId, detailType, message) => ({
+  type: 'ADD_ISSUE_DETAIL',
+  id: nextIssueDetailId++,
+  issueId,
+  detailType,
+  message,
+  author: "jcshah98",
+  date: today
 })

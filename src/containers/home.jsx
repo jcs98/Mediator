@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import history from '../history';
 
 import Home from '../components/home';
-import { addIssue } from '../actions'
+import { addIssue } from '../actions';
 
 const mapDispatchToProps = dispatch => ({
   logout: () => {
@@ -13,7 +13,6 @@ const mapDispatchToProps = dispatch => ({
   addIssue: (title, body, tags) => {
     console.log("Adding Issue");
     dispatch(addIssue(title, body, tags));
-
   }
 });
 

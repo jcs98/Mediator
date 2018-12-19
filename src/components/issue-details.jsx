@@ -32,7 +32,7 @@ export default class IssueDetails extends Component {
                   {currentDetails.length > 0
                     ? currentDetails
                     : <p>--- There are no details yet for this issue ---</p>}
-                  <AddIssueDetail/>
+                  <AddIssueDetail addIssueDetail={this.props.addIssueDetail} currentIssueId={currentIssue.id}/>
                 </Timeline>
               </span>
             </Col>

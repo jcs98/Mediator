@@ -4,7 +4,7 @@ import DetailIcons from './detail-icons';
 
 const DetailItem = ({detail}) => {
 
-  const detailIcon = DetailIcons(detail.type);
+  const detailIcon = DetailIcons(detail.detailType);
 
   return (
   <Timeline.Item 
