@@ -55,8 +55,7 @@ let initialState = {
     {
       id: 1,
       issueId: 235,
-      color: "blue",
-      type: "message",
+      type: 0,
       message: "I'll start working on it soon",
       author: "jcshah98",
       date: "2018-07-02"
@@ -64,8 +63,7 @@ let initialState = {
     {
       id: 2,
       issueId: 235,
-      color: "red",
-      type: "clock-circle-o",
+      type: 3,
       message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       author: "jcshah98",
       date: "2018-07-02"
@@ -73,8 +71,7 @@ let initialState = {
     {
       id: 3,
       issueId: 235,
-      color: "blue",
-      type: "edit",
+      type: 1,
       message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis fermentum velit vel facilisis. Aenean ut odio id nulla tempor vulputate. Aenean rhoncus sem nec purus pellentesque, ut pharetra arcu aliquam. Ut vulputate libero vel lobortis vestibulum.",
       author: "jcshah98",
       date: "2018-07-02"
@@ -82,8 +79,7 @@ let initialState = {
     {
       id: 4,
       issueId: 235,
-      color: "green",
-      type: "check-circle-o",
+      type: 2,
       message: "Aenean rhoncus sem nec purus pellentesque, ut pharetra arcu aliquam. Ut vulputate libero vel lobortis vestibulum.",
       author: "jcshah98",
       date: "2018-07-02"
@@ -91,8 +87,7 @@ let initialState = {
     {
       id: 5,
       issueId: 235,
-      color: "red",
-      type: "close-circle-o",
+      type: 4,
       message: "I am closing this issue now.",
       author: "jcshah98",
       date: "2018-07-02"
@@ -100,8 +95,7 @@ let initialState = {
     {
       id: 2,
       issueId: 236,
-      color: "red",
-      type: "clock-circle-o",
+      type: 3,
       message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       author: "jcshah98",
       date: "2018-07-02"

@@ -3,7 +3,7 @@ import { Router, Route } from 'react-router-dom';
 import './css/app.css';
 
 import Home from './containers/home';
-import IssueDetails from './containers/issue-details-container'
+import IssueDetails from './containers/issue-details'
 
 import history from './history'
 
