@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import IssueItem from './issue-item';
 import DetailItem from './detail-item';
+import AddIssueDetail from './add-issue-detail';
 import { Icon, Layout, Row, Col, Button, Timeline, Avatar } from 'antd';
 const { Header, Content } = Layout;
 
@@ -31,7 +32,7 @@ export default class IssueDetails extends Component {
                   {currentDetails.length > 0
                     ? currentDetails
                     : <p>--- There are no details yet for this issue ---</p>}
-
+                  <AddIssueDetail/>
                 </Timeline>
               </span>
             </Col>
